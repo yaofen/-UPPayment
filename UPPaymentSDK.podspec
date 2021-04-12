@@ -20,13 +20,15 @@ TODO: Add long description of the pod here.
   s.author           = { 'yaofen' => '2363253102@qq.com' }
   s.source           = { :git => 'https://github.com/yaofen/UPPayment.git', :tag => s.version.to_s }
   
-  s.ios.deployment_target = '10.0'
   s.requires_arc = true
-  s.source_files = 'UPPaymentSDK/Classes/Headers/*.h'
+  s.ios.deployment_target = '10.0'
   s.ios.vendored_libraries = 'UPPaymentSDK/Classes/lib/libPaymentControl.a'
-  s.frameworks = 'CFNetwork','SystemConfiguration','CoreTelephony'
   s.libraries = 'z'
+  s.frameworks = 'CFNetwork','SystemConfiguration','CoreTelephony'
+  s.source_files = 'UPPaymentSDK/Classes/Headers/*.h'
   s.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lc++']}
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+
 
 
 end
