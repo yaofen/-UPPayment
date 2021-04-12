@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UPPaymentSDK'
-  s.version          = '0.0.1'
-  s.summary          = '银联手机控件支付iOS SDK'
+  s.version          = '0.0.2'
+  s.summary          = '银联支付SDK'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yaofen/UPPaymentSDK'
+  s.homepage         = 'https://github.com/yaofen/UPPayment'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yaofen' => '2363253102@qq.com' }
-  s.source           = { :git => 'https://github.com/yaofen/UPPaymentSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yaofen/UPPayment.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
