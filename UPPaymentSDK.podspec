@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UPPaymentSDK'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '银联支付SDK'
 
   s.description      = <<-DESC
@@ -24,7 +24,9 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.source_files = 'UPPaymentSDK/Classes/Headers/*.h'
   s.ios.vendored_libraries = 'UPPaymentSDK/Classes/lib/libPaymentControl.a'
-  s.frameworks = 'CFNetwork','SystemConfiguration'
+  s.frameworks = 'CFNetwork','SystemConfiguration','CoreTelephony'
   s.libraries = 'z'
+  s.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lc++']}
+
 
 end
