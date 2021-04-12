@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UPPaymentSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '银联支付SDK'
 
   s.description      = <<-DESC
