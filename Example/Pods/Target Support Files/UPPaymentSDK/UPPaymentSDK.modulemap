@@ -1,0 +1,6 @@
+framework module UPPaymentSDK {
+  umbrella header "UPPaymentSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

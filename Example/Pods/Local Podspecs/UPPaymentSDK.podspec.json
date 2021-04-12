@@ -1,0 +1,31 @@
+{
+  "name": "UPPaymentSDK",
+  "version": "0.1.0",
+  "summary": "银联手机控件支付iOS SDK",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yaofen/UPPaymentSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yaofen": "2363253102@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yaofen/UPPaymentSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "source_files": "UPPaymentSDK/Classes/Headers/*.h",
+  "ios": {
+    "vendored_libraries": "UPPaymentSDK/Classes/lib/libPaymentControl.a"
+  },
+  "frameworks": [
+    "CFNetwork",
+    "SystemConfiguration"
+  ],
+  "libraries": "z"
+}

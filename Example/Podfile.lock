@@ -1,0 +1,16 @@
+PODS:
+  - UPPaymentSDK (0.1.0)
+
+DEPENDENCIES:
+  - UPPaymentSDK (from `../`)
+
+EXTERNAL SOURCES:
+  UPPaymentSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UPPaymentSDK: 34965e68cf88934b59ff0bcb8664bc34877398dd
+
+PODFILE CHECKSUM: 2e336fa62a2d0811ee233cd272e7f7316eb89d1b
+
+COCOAPODS: 1.10.0
